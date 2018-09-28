@@ -26,4 +26,8 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
+apply plugin: "jacoco"
 
+jacoco{
+      tooVersion = "0.8.1"
+}
