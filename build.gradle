@@ -29,5 +29,5 @@ dependencies {
 apply plugin: "jacoco"
 
 jacoco{
-      tooVersion = "0.8.1"
+      toolVersion = "0.8.1"
 }
